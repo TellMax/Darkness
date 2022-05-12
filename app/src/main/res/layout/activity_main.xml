@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:background="@color/black"
-    >
+    tools:context=".MainActivity">
 
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
         android:text="Приветсвую в темноте!"
+        android:textColor="@color/white"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -24,10 +23,10 @@
 
     <Button
         android:id="@+id/buttonStart"
-        android:backgroundTint="@color/gray"
         android:layout_width="match_parent"
-        android:layout_height="60sp"
+        android:layout_height="60dp"
         android:layout_marginTop="132dp"
+        android:backgroundTint="@color/gray"
         android:text="погрузиться в темноту"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +37,7 @@
     <Button
         android:id="@+id/buttonrules"
         android:layout_width="match_parent"
-        android:layout_height="60sp"
+        android:layout_height="60dp"
         android:layout_marginTop="72dp"
         android:backgroundTint="@color/gray"
         android:text="правила"
@@ -51,7 +50,7 @@
     <Button
         android:id="@+id/buttonExit"
         android:layout_width="match_parent"
-        android:layout_height="60sp"
+        android:layout_height="60dp"
         android:layout_marginTop="72dp"
         android:backgroundTint="@color/gray"
         android:text="выход"
