@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view)
             {
                 med.start();
+                startActivity(new Intent(MainActivity.this, rules_activity.class));
             }
         });
     }

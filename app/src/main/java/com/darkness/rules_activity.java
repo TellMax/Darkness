@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.os.Bundle;
 import android.widget.ImageButton;
 
-public class Game_proces extends AppCompatActivity {
+public class rules_activity extends AppCompatActivity {
 
     ImageButton Exit;
 
@@ -17,16 +17,16 @@ public class Game_proces extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game_proces);
+        setContentView(R.layout.activity_rules);
 
-        Exit = findViewById(R.id.exit);
+        Exit = findViewById(R.id.exitRules);
 
         Exit.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View view)
             {
-                startActivity(new Intent(Game_proces.this, MainActivity.class));
+                startActivity(new Intent(rules_activity.this, MainActivity.class));
             }
         });
     }
