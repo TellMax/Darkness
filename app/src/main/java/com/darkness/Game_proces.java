@@ -17,7 +17,6 @@ public class Game_proces extends AppCompatActivity
     String[][] Void = new String [10][10];
 
     int choise = 0;
-    int moove = 0;
     ImageButton Exit;
     ImageButton upLeft;
     ImageButton up;
@@ -77,7 +76,7 @@ public class Game_proces extends AppCompatActivity
                 map[playercorex][playercorey] = "░";
                 map[--playercorex][--playercorey] = "#";
                 khod = 1;
-
+                choise = 2;
             }
         });
     }
@@ -92,9 +91,9 @@ public class Game_proces extends AppCompatActivity
             public void onClick(View view)
             {
                 map[playercorex][playercorey] = "░";
-                playercorex--;
                 khod = 1;
-                map[playercorex][playercorey] = "#";
+                choise = 2;
+                map[--playercorex][playercorey] = "#";
             }
         });
     }
@@ -109,8 +108,9 @@ public class Game_proces extends AppCompatActivity
             public void onClick(View view)
             {
                 map[playercorex][playercorey] = "░";
-                map[++playercorex][--playercorey] = "#";
+                map[--playercorex][++playercorey] = "#";
                 khod = 1;
+                choise = 2;
             }
         });
     }
@@ -125,8 +125,9 @@ public class Game_proces extends AppCompatActivity
             public void onClick(View view)
             {
                 map[playercorex][playercorey] = "░";
-                map[--playercorex][playercorey] = "#";
+                map[playercorex][--playercorey] = "#";
                 khod = 1;
+                choise = 2;
             }
         });
     }
@@ -141,8 +142,9 @@ public class Game_proces extends AppCompatActivity
             public void onClick(View view)
             {
                 map[playercorex][playercorey] = "░";
-                map[++playercorex][playercorey] = "#";
+                map[playercorex][++playercorey] = "#";
                 khod = 1;
+                choise = 2;
             }
         });
     }
@@ -157,8 +159,9 @@ public class Game_proces extends AppCompatActivity
             public void onClick(View view)
             {
                 map[playercorex][playercorey] = "░";
-                map[--playercorex][++playercorey] = "#";
+                map[++playercorex][--playercorey] = "#";
                 khod = 1;
+                choise = 2;
             }
         });
     }
@@ -173,8 +176,9 @@ public class Game_proces extends AppCompatActivity
             public void onClick(View view)
             {
                 map[playercorex][playercorey] = "░";
-                map[playercorex][--playercorey] = "#";
+                map[++playercorex][playercorey] = "#";
                 khod = 1;
+                choise = 2;
             }
         });
     }
@@ -191,6 +195,7 @@ public class Game_proces extends AppCompatActivity
                 map[playercorex][playercorey] = "░";
                 map[++playercorex][++playercorey] = "#";
                 khod = 1;
+                choise = 2;
             }
         });
     }
@@ -304,15 +309,6 @@ public class Game_proces extends AppCompatActivity
             //-
 
             /// -
-
-            /// - списки мобов / боссов
-            String[][] mobsnames =
-                    {
-                            {"Пешка","P"},
-                            {"Слоненок","S"},
-                            {"Слепой король","K"},
-                            {"Игрок","#"}
-                    };
 
             int corekingx = 1;
             int corekingy = 1;
@@ -461,7 +457,7 @@ public class Game_proces extends AppCompatActivity
                                     nap = 4;
                             }
 
-                            int flag = 1;
+/*                            int flag = 1;
 
                             while(flag == 1) {
                                 if (nap == 1 && map[coreslonx - 1][coreslony] != "░" && map[coreslonx - 1][coreslony] != "#") {
@@ -476,7 +472,7 @@ public class Game_proces extends AppCompatActivity
                                     flag = 0;
                                 }
 
-                            }
+                            }*/
 
 
                             if (nap == 1) {
