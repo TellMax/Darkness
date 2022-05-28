@@ -11,7 +11,6 @@ import android.widget.TextView;
 public class Game_proces extends AppCompatActivity
 {
     Random random = new Random();
-
     //перменные
     int gamerun = 1;
     int score = 0;
@@ -638,7 +637,41 @@ public class Game_proces extends AppCompatActivity
                 {
                     playercorex = random.nextInt(8) + 1;
                     playercorey = random.nextInt(8) + 1;
-                    if (map[playercorex][playercorey] == "░")
+
+                    int help = 0;
+                    if(map[playercorex + 1][playercorey + 1] == "░" || map[playercorex + 1][playercorey + 1] == "█")
+                    {
+                        help = 1;
+                    }
+                    else if(map[playercorex - 1][playercorey + 1] == "░" || map[playercorex - 1][playercorey + 1] == "█")
+                    {
+                        help = 1;
+                    }
+                    else if(map[playercorex + 1][playercorey - 1] == "░" || map[playercorex + 1][playercorey - 1] == "█")
+                    {
+                        help = 1;
+                    }
+                    else if(map[playercorex - 1][playercorey - 1] == "░" || map[playercorex - 1][playercorey - 1] == "█")
+                    {
+                        help = 1;
+                    }
+                    else if(map[playercorex + 1][playercorey] == "░" || map[playercorex + 1][playercorey] == "█")
+                    {
+                        help = 1;
+                    }
+                    else if(map[playercorex - 1][playercorey] == "░" || map[playercorex - 1][playercorey] == "█")
+                    {
+                        help = 1;
+                    }
+                    else if(map[playercorex][playercorey + 1] == "░" || map[playercorex][playercorey + 1] == "█")
+                    {
+                        help = 1;
+                    }
+                    else if(map[playercorex][playercorey - 1] == "░" || map[playercorex][playercorey - 1] == "█")
+                    {
+                        help = 1;
+                    }
+                    if (map[playercorex][playercorey] == "░" && help == 1)
                     {
                         ggen = 0;
                     }
@@ -675,7 +708,7 @@ public class Game_proces extends AppCompatActivity
                     coreslonx = random.nextInt(8) + 1;
                     coreslony = random.nextInt(8) + 1;
 
-                     if (map[coreslonx][coreslony] == "░")
+                    if (map[coreslonx][coreslony] == "░")
                     {
                         ggen = 0;
                     }
@@ -687,8 +720,11 @@ public class Game_proces extends AppCompatActivity
 
                 while (round == 1)
                 {
+
+
                     if (khod == 1)
                     {
+
                         khod = 0;
                     }
                 }

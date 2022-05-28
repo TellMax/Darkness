@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Tellm/AndroidStudioProjects/Darkness/app/src/main/res/layout/activity_game_proces.xml" value="0.2" />
+        <entry key="..\:/Users/Tellm/AndroidStudioProjects/Darkness/app/src/main/res/layout/activity_end_screen.xml" value="0.2115036231884058" />
+        <entry key="..\:/Users/Tellm/AndroidStudioProjects/Darkness/app/src/main/res/layout/activity_game_proces.xml" value="0.33" />
         <entry key="..\:/Users/Tellm/AndroidStudioProjects/Darkness/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Tellm/AndroidStudioProjects/Darkness/app/src/main/res/layout/activity_rules.xml" value="0.15726495726495726" />
+        <entry key="..\:/Users/Tellm/AndroidStudioProjects/Darkness/app/src/main/res/layout/activity_rules.xml" value="0.1" />
+        <entry key="..\:/Users/Tellm/AndroidStudioProjects/Darkness/app/src/main/res/layout/choise.xml" value="0.2115036231884058" />
         <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.208" />
         <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2595" />
         <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness2/app/src/main/res/layout/activity_game_proces.xml" value="0.264" />
