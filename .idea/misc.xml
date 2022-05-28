@@ -10,7 +10,16 @@
         <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2595" />
         <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness2/app/src/main/res/layout/activity_game_proces.xml" value="0.264" />
         <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness2/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness3/app/src/main/res/layout/activity_game_proces.xml" value="0.144" />
+        <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness3/app/src/main/res/font/autour_one.xml" value="0.284375" />
+        <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness3/app/src/main/res/font/black_han_sans.xml" value="0.284375" />
+        <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness3/app/src/main/res/layout/activity_choise.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness3/app/src/main/res/layout/activity_end_screen.xml" value="0.264" />
+        <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness3/app/src/main/res/layout/activity_game_proces.xml" value="0.264" />
+        <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness3/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness3/app/src/main/res/layout/activity_rules.xml" value="0.2" />
+        <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness3/app/src/main/res/layout/choise.xml" value="0.2" />
+        <entry key="..\:/Users/podma/AndroidStudioProjects/Darkness3/app/src/main/res/layout/endgamescreen.xml" value="0.175" />
       </map>
     </option>
   </component>

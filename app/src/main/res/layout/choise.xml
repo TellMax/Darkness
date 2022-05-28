@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".choise_activity">
+
+    <ImageButton
+        android:id="@+id/easy"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:text="Легкая сложность"
+        android:textColor="@color/white"
+        android:src="@drawable/easy"
+        android:padding="0dp"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageButton
+        android:id="@+id/hard"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="200dp"
+        android:text="Тяжелая сложность"
+        android:src="@drawable/hard"
+        android:textColor="@color/white"
+        android:padding="0dp"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-54dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

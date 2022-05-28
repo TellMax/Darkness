@@ -7,54 +7,59 @@
     android:background="@color/black"
     tools:context=".MainActivity">
 
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Приветсвую в темноте!"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.096" />
-
-    <Button
+    <ImageButton
         android:id="@+id/buttonStart"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginTop="132dp"
+        android:layout_width="411dp"
+        android:layout_height="93dp"
         android:backgroundTint="@color/gray"
-        android:text="погрузиться в темноту"
-        android:textColor="@color/black"
+        android:padding="0dp"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/entrance"
+        app:layout_constraintBottom_toTopOf="@+id/buttonrules"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/buttonrules"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginTop="72dp"
+        android:layout_height="93dp"
         android:backgroundTint="@color/gray"
-        android:text="правила"
-        android:textColor="@color/black"
+        android:padding="0dp"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/rules"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonStart" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/buttonExit"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginTop="72dp"
+        android:layout_height="93dp"
         android:backgroundTint="@color/gray"
-        android:text="выход"
+        android:padding="0dp"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/exit3"
         android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

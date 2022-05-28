@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import java.io.IOException;
@@ -16,9 +17,9 @@ import java.io.IOException;
 public class MainActivity extends AppCompatActivity
 {
 
-    Button start;
-    Button exit;
-    Button rules;
+    ImageButton start;
+    ImageButton rules;
+    ImageButton exit;
 
     MediaPlayer med;
 
@@ -46,6 +47,8 @@ public class MainActivity extends AppCompatActivity
 
         rules = findViewById(R.id.buttonrules);
 
+        exit = findViewById(R.id.buttonExit);
+
         start.setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -53,7 +56,7 @@ public class MainActivity extends AppCompatActivity
             {
                 med.start();
 
-                startActivity(new Intent(MainActivity.this, Game_proces.class));
+                startActivity(new Intent(MainActivity.this, choise_activity.class));
             }
         });
 
@@ -64,6 +67,16 @@ public class MainActivity extends AppCompatActivity
             {
                 med.start();
                 startActivity(new Intent(MainActivity.this, rules_activity.class));
+            }
+        });
+
+        exit.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                med.start();
+                finishAffinity();
             }
         });
     }
